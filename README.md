@@ -1,4 +1,4 @@
-#🦠COVID-19 Clinical CDSS: Estudio Comparativo de Arquitecturas Multimodales
+#🦠COVID-19 ICU-Prediction: Estudio Comparativo de Arquitecturas Multimodales
 
 > **Investigación de Deep Learning:** Evaluación de estrategias de fusión (Early vs. Late Fusion) para diagnóstico clínico integrando **Imágenes de Rayos X** y **Series Temporales**.
 
