@@ -21,7 +21,7 @@ Este proyecto realiza un **estudio comparativo de cuatro arquitecturas** para re
 El sistema final se construyó sobre la base de dos "Agentes Expertos" y un mecanismo de consenso.
 
 ### 1. El Experto Visual (Rama CNN)
-* **Misión:** Analizar patrones espaciales en las radiografías para detectar neumonía o vidrio esmerilado.
+* **Misión:** Analizar patrones espaciales en las radiografías para detectar COVID-19.
 * **Tecnología:** **Red Neuronal Convolucional (Custom CNN)**.
 * **Procesamiento:** Las imágenes fueron preprocesadas (escala de grises, redimensionamiento) y se aplicó **Data Augmentation** (rotación, zoom) para evitar el sobreajuste en un dataset pequeño.
 * **Perfil:** Alta Sensibilidad (Recall 1.0), pero propenso a "alucinar" falsos positivos.
@@ -87,7 +87,7 @@ La arquitectura de Ensamble demostró una **sinergia perfecta** en el entorno ex
 ## 📂 Estructura del Repositorio
 ```text
 COVID19-Multimodal-CDSS/
-├── 📓 COVID19_IA.ipynb            # Pipeline completo (ETL -> CNN -> RNN -> Ensemble)
+├── 📓 COVID19_IA.ipynb            # Pipeline completo (ETL -> CNN -> RNN -> Ensemble) | Documentación
 ├── 📂 img/                        # Diagramas de arquitectura y resultados visuales
 └── 📂 docs/
     └── Prototipo_Diagnostico.pdf  # Informe técnico detallado
